@@ -21,7 +21,7 @@
     align-items: center;
     perspective: 1000px;
     background:#000;
-    animation-name: spin;
+    
 }
 .card{
     width: 250px;
@@ -31,6 +31,7 @@
     display: block;
     border-radius: 20px;
     transition: all 1s ease;
+    animation-name: spin;
 }
 .a{
     transform: rotateY(0deg) translateZ(250px);
