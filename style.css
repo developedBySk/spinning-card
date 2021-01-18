@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background : linear-gradient(30deg,red,white);
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    perspective: 1000px;
+    background:#000;
+}
+.card{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    transform-style: preserve-3d;
+    display: block;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+.a{
+    transform: rotateY(0deg) translateZ(250px);
+    background: blue
+}
+.b{
+    transform: rotateY(60deg) translateZ(250px);
+    background: rgb(34, 108, 172);
+}
+.c{
+    transform: rotateY(120deg) translateZ(250px);
+    background: rgba(226, 136, 17, 0.644);
+}
+.d{
+    transform: rotateY(180deg) translateZ(250px);
+    background: rgba(236, 35, 35, 0.438);
+}
+.e{
+    transform: rotateY(240deg) translateZ(250px);
+    background: rgba(22, 196, 22, 0.589);
+}
+.f{
+    transform:rotateY(300deg) translateZ(250px); 
+    background: yellow;
+}
