@@ -21,6 +21,7 @@
     align-items: center;
     perspective: 1000px;
     background:#000;
+    animation-name: spin;
 }
 .card{
     width: 250px;
@@ -54,4 +55,12 @@
 .f{
     transform:rotateY(300deg) translateZ(250px); 
     background: yellow;
+}
+@keyframes spin{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
 }
