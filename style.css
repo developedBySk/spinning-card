@@ -35,7 +35,7 @@
 }
 .a{
     transform: rotateY(0deg) translateZ(250px);
-    background: blue
+    background: yellow;
 }
 .b{
     transform: rotateY(-60deg) translateZ(250px);
@@ -55,7 +55,7 @@
 }
 .f{
     transform:rotateY(-300deg) translateZ(250px); 
-    background: yellow;
+    background: blue;
 }
 @keyframes spin{
     from{

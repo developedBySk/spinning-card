@@ -6,5 +6,5 @@ container.addEventListener('click',rotate)
 function rotate(){
     currdeg = currdeg + 60;
 
-    container.style.transform = "rotateY("+ currdeg +"deg)";
+    container.style.transform = "translateY("+ currdeg +"deg)";
 }
