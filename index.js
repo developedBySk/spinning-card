@@ -4,7 +4,5 @@ currdeg = 0;
 container.addEventListener('click',rotate)
 
 function rotate(){
-    currdeg = currdeg + 60;
-
-    container.style.transform = "translateY("+ currdeg +"deg)";
+    container.classList.toggle('.spin');
 }

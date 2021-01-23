@@ -57,11 +57,6 @@
     transform:rotateY(-300deg) translateZ(250px); 
     background: blue;
 }
-@keyframes spin{
-    from{
-        transform: rotateY(0deg);
-    }
-    to{
-        transform: rotateY(360deg);
-    }
+.spin{
+    transform: translateX(30deg);
 }
