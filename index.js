@@ -4,5 +4,5 @@ currdeg = 0;
 container.addEventListener('click',rotate)
 
 function rotate(){
-    container.classList.toggle('.spin');
+    card.classList.toggle('spin');
 }
